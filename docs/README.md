@@ -1,20 +1,23 @@
 # OctoAcme Project Management Docs—README
 
-## Summary of Project Management Processes Used by OctoAcme
+## Overview & Core Principles
 
-OctoAcme project management follows a structured, iterative approach designed to optimize stakeholder alignment, risk transparency, continuous improvement, and the delivery of measurable value. The core process is characterized by:
+OctoAcme operates on a structured yet iterative project management framework designed to deliver customer value while maintaining clear ownership and data-driven decision-making. The approach is built on five core principles: customer-first prioritization, iterative delivery of small testable increments, clear role assignments (Project Manager and Product Lead for each project), data-informed decisions, and psychological safety for continuous improvement. Projects follow a well-defined lifecycle consisting of five phases: initiation (validating business need and stakeholder alignment), planning (breaking work into actionable increments), execution (building and testing iteratively), release (deploying to production), and close/retrospective (capturing learnings for future improvement).
 
-- **Project Initiation:** Clear objectives and scope are established with stakeholder input.
-- **Planning:** Project plans are created, risks and roles are defined, and milestones are set.
-- **Execution & Tracking:** Work is iteratively executed and tracked against plans; issues are logged and reviewed frequently.
-- **Risk Management:** Risks are proactively identified, assessed, and communicated with mitigation steps.
-- **Release & Deployment:** Deliverables are reviewed, released, and deployed using defined protocols.
-- **Retrospectives:** Teams regularly conduct retrospectives to identify improvements and apply lessons learned.
-- **Roles & Responsibilities:** Assignments and ownership are well documented to avoid ambiguity.
+## Key Roles & Communication Structure
 
-All processes are documented in modular markdown files for easy ongoing reference and are indexed below.
+The organization defines clear personas with distinct responsibilities: **Developers** implement features and maintain code quality while participating in estimations and risk identification; **Product Managers** own the product vision, prioritize the backlog, and measure outcomes through success metrics; and **Project Managers** coordinate delivery, manage schedules, risks, and stakeholder communications. Communication occurs through a structured cadence: daily standups (15 minutes focused on progress, blockers, and dependencies), weekly delivery syncs to review progress and flagged risks, weekly alignment between PM and Product Lead, monthly stakeholder updates, and ad-hoc escalations as needed. This multi-layered communication ensures alignment across the organization while maintaining transparency about project status and emerging risks.
+
+## Execution & Quality Assurance Practices
+
+During execution, teams utilize GitHub Projects with standardized columns (Backlog, Ready, In Progress, In Review, QA, Done) and follow a disciplined Pull Request workflow requiring small PRs (≤400 lines when possible), issue links, acceptance criteria in descriptions, automated testing, and at least one approval before merging. Quality assurance is comprehensive, encompassing unit tests for new logic, integration tests where applicable, end-to-end smoke tests for critical flows, security scanning in CI, and manual QA for feature acceptance. Teams track velocity, burndown, and key success metrics identified in project one-pagers, using dashboards to monitor signals like errors, latency, and usage. Blockers are managed through a three-level escalation system: team-level triage in daily standups, PM escalation to Product Lead and dependent teams, and sponsor-level escalation for business-impacting issues.
+
+## Risk Management & Continuous Improvement
+
+Risk management is integrated throughout the project lifecycle via a Risk Register that tracks ID, description, impact/likelihood assessment, owner, mitigation plan, and status—reviewed weekly and updated continuously. Stakeholder communication uses standardized templates for weekly status updates (progress, next steps, risks/blockers, decisions needed) and incident communications, ensuring a single source of truth for project status. After each sprint, release, or milestone, retrospectives (timeboxed to 45–75 minutes) capture what went well, what could improve, and identify 2–3 prioritized action items with clear owners and due dates. This commitment to continuous improvement—measuring impact of action items and making iterative changes—creates a learning culture that evolves processes based on real team experience rather than static procedures.
 
 ## Index of Process Documents
+
 - [Project Management Overview](octoacme-project-management-overview.md)
 - [Project Initiation Guide](octoacme-project-initiation.md)
 - [Project Planning](octoacme-project-planning.md)

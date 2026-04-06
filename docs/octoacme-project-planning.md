@@ -37,7 +37,11 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 
 ## Planning Checklist
 - [ ] Project kickoff held
+- [ ] All roles assigned (PM, PdM, Developers, UX Designer, QA Lead, DevOps Engineer, Data Analyst, Stakeholders)
 - [ ] Backlog prioritized and estimated
 - [ ] Release timeline and milestones agreed
 - [ ] Definition of Done documented
 - [ ] Initial test plan / QA approach drafted
+- [ ] Success metrics and KPIs defined (with Data Analyst)
+- [ ] Design and UX review process confirmed
+- [ ] CI/CD pipeline and environment setup confirmed with DevOps Engineer

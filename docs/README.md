@@ -2,7 +2,9 @@
 
 ## Overview & Core Principles
 
-OctoAcme operates on a structured yet iterative project management framework designed to deliver customer value while maintaining clear ownership and data-driven decision-making. The approach is built on five core principles: customer-first prioritization, iterative delivery of small testable increments, clear role assignments (Project Manager and Product Lead for each project), data-informed decisions, and psychological safety for continuous improvement. Projects follow a well-defined lifecycle consisting of five phases: initiation (validating business need and stakeholder alignment), planning (breaking work into actionable increments), execution (building and testing iteratively), release (deploying to production), and close/retrospective (capturing learnings for future improvement).
+OctoAcme operates on a structured yet iterative project management framework designed to deliver customer value while maintaining clear ownership and data-driven decision-making. The approach is built on five core principles: customer-first prioritization, iterative delivery of small testable increments, clear role assignments (Project Manager and Product Lead for each project), data-informed decisions, and psychological safety for continuous improvement.
+
+Projects follow a well-defined lifecycle of five phases: **initiation** (validating business need and stakeholder alignment), **planning** (breaking work into actionable increments), **execution** (building and testing iteratively), **release** (deploying to production), and **close/retrospective** (capturing learnings for future improvement).
 
 ## Key Roles & Communication Structure
 
@@ -10,7 +12,9 @@ The organization defines clear personas with distinct responsibilities: **Develo
 
 ## Execution & Quality Assurance Practices
 
-During execution, teams utilize GitHub Projects with standardized columns (Backlog, Ready, In Progress, In Review, QA, Done) and follow a disciplined Pull Request workflow requiring small PRs (≤400 lines when possible), issue links, acceptance criteria in descriptions, automated testing, and at least one approval before merging. Quality assurance is comprehensive, encompassing unit tests for new logic, integration tests where applicable, end-to-end smoke tests for critical flows, security scanning in CI, and manual QA for feature acceptance. Teams track velocity, burndown, and key success metrics identified in project one-pagers, using dashboards to monitor signals like errors, latency, and usage. Blockers are managed through a three-level escalation system: team-level triage in daily standups, PM escalation to Product Lead and dependent teams, and sponsor-level escalation for business-impacting issues.
+During execution, teams utilize GitHub Projects with standardized columns (Backlog, Ready, In Progress, In Review, QA, Done) and follow a disciplined Pull Request workflow. PRs are kept small (≤400 lines when possible), include issue links and acceptance criteria, require automated testing, and must have at least one approval before merging.
+
+Quality assurance is comprehensive, encompassing unit tests for new logic, integration tests where applicable, end-to-end smoke tests for critical flows, security scanning in CI, and manual QA for feature acceptance. Teams track velocity, burndown, and key success metrics using dashboards to monitor signals like errors, latency, and usage. Blockers are managed through a three-level escalation system: team-level triage in daily standups, PM escalation to Product Lead and dependent teams, and sponsor-level escalation for business-impacting issues.
 
 ## Risk Management & Continuous Improvement
 
